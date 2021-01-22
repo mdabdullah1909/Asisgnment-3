@@ -1,3 +1,5 @@
+// https://github.com/mdabdullah1909/Asisgnment-3
+
 // 01. kilometerToMeter:
 function kilometerToMeter(kilometer) {
     var meter = kilometer / 1000;
@@ -15,8 +17,8 @@ function budgetCalculator(clock, mobile, laptop) {
     var totalPrice = clock + mobile + laptop;
     return totalPrice;
 }
-var result1 = budgetCalculator();
-console.log(result1);
+var total = budgetCalculator();
+console.log(total);
 // ==========================================//
 
 // 03. hotelCost:
